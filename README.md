@@ -1,7 +1,7 @@
-# Reciprocal Best Hits by BLAST to conservatively identify orthologs
+# Ortholog identification by Reciprocal Best Hits (RBH)
 
-Species A: *O. nubilalis* (Onub)
-Species B: *D. melanogaster* (Dmel)
+**Species A:** *O. nubilalis* (Onub) <br>
+**Species B:** *D. melanogaster* (Dmel)
 
   1) Download RefSeq peptide files in FASTA from NCBI for Onub and Dmel
   2) Make BLAST+ compatible database from FASTA files
