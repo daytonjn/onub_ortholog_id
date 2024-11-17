@@ -4,7 +4,7 @@
 #SBATCH -o out_makeblastdb.txt
 #SBATCH -e err_makeblastdb.txt
 #SBATCH --mem=24gb
-#SBATCH --time=0-4:00:00
+#SBATCH --time=0-1:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-type=END
 #SBATCH --mail-user=jacob.dayton@tufts.edu
