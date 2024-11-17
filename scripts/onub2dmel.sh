@@ -13,13 +13,13 @@
 supporting_file_dir="/cluster/tufts/dopmanlab/Jacob/onub_ortholog_id/supporting_files/"
 output_dir="/cluster/tufts/dopmanlab/Jacob/onub_ortholog_id/output/"
 
+mkdir ${output_dir}
+
 #load BLAST+ module
 module load blast-plus/2.11.0
-#module load blast/2.8.1
 
 #BLAST+ from Onub query to Dmel reference database
-#max_target_seqs 1 = one subject/hit, but several HSPs if present
-#max_hsps 5 = up to five HSPs per subject
-blastp -query ${supporting_file_dir}Onub_peptide.fasta -db ${supporting_file_dir}Dmel_peptide-db \
+
+blastp -query ${supporting_file_dir}Onub_peptides.fasta -db ${supporting_file_dir}Dmel_peptides-db \
 -out ${output_dir}Onub2Dmel_blastp.txt -max_target_seqs 1 -max_hsps 1 -evalue 0.001 -outfmt 6
 
