@@ -21,5 +21,5 @@ module load blast-plus/2.11.0
 #max_target_seqs 1 = one subject/hit, but several HSPs if present
 #max_hsps 5 = up to five HSPs per subject
 blastp -query {$supporting_file_dir}Onub_peptide.fasta -db {$supporting_file_dir}Dmel_peptide-db \
--out {output_dir}Onub2Dmel_blastp.txt -max_target_seqs 1 -max_hsps 5 -outfmt 6
+-out {output_dir}Onub2Dmel_blastp.txt -max_target_seqs 1 -max_hsps 1 -evalue 0.001 -outfmt 6
 
