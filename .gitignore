@@ -3,7 +3,7 @@
 /supporting_files/*.zip
 
 # BLAST results
-/output/*_blastp.txt
+# /output/*_blastp.txt
 
 # History files
 .Rhistory
