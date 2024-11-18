@@ -1,3 +1,10 @@
+# Database files
+/supporting_files/*-db.*
+/supporting_files/*.zip
+
+# BLAST results
+/output/*_blastp.txt
+
 # History files
 .Rhistory
 .Rapp.history
