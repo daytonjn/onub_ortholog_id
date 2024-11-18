@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH -c 1
 #SBATCH -p batch
-#SBATCH -o out_makeblastdb.txt
-#SBATCH -e err_makeblastdb.txt
+#SBATCH -o out_OnubtoDmel.txt
+#SBATCH -e err_OnubtoDmel.txt
 #SBATCH --mem=24gb
 #SBATCH --time=0-16:00:00
 #SBATCH --mail-type=FAIL
