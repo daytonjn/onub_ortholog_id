@@ -1,0 +1,2 @@
+mkdir: cannot create directory ‘/cluster/tufts/dopmanlab/Jacob/onub_ortholog_id/output/’: File exists
+Warning: [blastp] Examining 5 or more matches is recommended
