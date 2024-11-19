@@ -58,3 +58,4 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+scripts/.ipynb_checkpoints/

@@ -28,5 +28,5 @@ cp ${supporting_file_dir}Dmel/ncbi_dataset/data/GCF_000001215.4/protein.faa ${su
 cp ${supporting_file_dir}Onub/ncbi_dataset/data/GCF_963855985.1/protein.faa ${supporting_file_dir}Onub_peptides.fasta
 
 #Clean up
-rm -f -r ${supporting_file_dir}Dmel
-rm -f -r ${supporting_file_dir}Onub
+#rm -f -r ${supporting_file_dir}Dmel
+#rm -f -r ${supporting_file_dir}Onub
