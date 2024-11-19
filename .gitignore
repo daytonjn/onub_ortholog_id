@@ -1,3 +1,7 @@
+# Batch output/err files
+/scripts/out_*.txt
+/scripts/err_*.txt
+
 # Database files
 /supporting_files/*-db.*
 /supporting_files/*.zip
