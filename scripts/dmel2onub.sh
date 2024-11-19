@@ -3,8 +3,8 @@
 #SBATCH -p batch
 #SBATCH -o out_dmel2onub.txt
 #SBATCH -e err_dmel2onub.txt
-#SBATCH --mem=24gb
-#SBATCH --time=0-4:00:00
+#SBATCH --mem=32gb
+#SBATCH --time=0-20:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-type=END
 #SBATCH --mail-user=jacob.dayton@tufts.edu
