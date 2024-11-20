@@ -16,3 +16,9 @@
   5) Identify RBH for each gene/peptide (results sorted by E-value, top hit = lowest E-value, highest bit score to break ties)
      - find_rbh_onub2dmel.ipynb or find_rbh_onub2dmel_v2.ipynb 
   6) Output table with Onub2Dmel orthologs and corresponding Dmel gene names
+
+Dependencies:
+- ncbi-datasets-cli
+- seqkit
+- blast==2.12.0
+- Python3: pandas
