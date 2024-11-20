@@ -25,3 +25,5 @@
 - seqkit
 - blast==2.12.0
 - Python3: pandas
+
+**Purpose:** Following RNAseq analysis for DEGs between Onub strains (univoltine/bivoltine) and environments (long-day vs. short-day environment), it is essential to understand which functional pathways/gene sets contribute to the strain differences in diapause induction and post-diapause development (key factors determining the voltinism and agroeconomic pest potential of Onub). In order to leverage annotations from model systems and assign meaning to the Onub LOC### IDs, orthologs are identified with Dmel by RBH.    
