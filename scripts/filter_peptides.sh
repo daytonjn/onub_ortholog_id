@@ -1,4 +1,13 @@
 #!/bin/bash
+#SBATCH -c 1
+#SBATCH -p batch
+#SBATCH -o out_filter_peptides.txt
+#SBATCH -e err_filter_peptides.txt
+#SBATCH --mem=16gb
+#SBATCH --time=0-2:00:00
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-type=END
+#SBATCH --mail-user=jacob.dayton@tufts.edu
 
 module load anaconda
 conda activate ortholog_id
