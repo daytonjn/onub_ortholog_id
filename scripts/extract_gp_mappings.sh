@@ -11,7 +11,8 @@ supporting_file_dir="/cluster/tufts/dopmanlab/Jacob/onub_ortholog_id/supporting_
 
 # Extract gene-to-protein mappings from the .tsv file
 # $7 = Name (actual name or LOC###)
-# $10 = Protein accession (representative)
+# $10 = Transcript accession (representative)
+# $11 = Protein accession (representative)
 
 awk -F'\t' 'BEGIN {OFS="\t"} {print $7, $11}' "${supporting_file_dir}onub_gp_table.tsv" > "${supporting_file_dir}onub_gp_mapping.txt"
 

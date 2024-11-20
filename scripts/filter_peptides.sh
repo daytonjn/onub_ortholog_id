@@ -15,6 +15,6 @@ awk '{print $2}' "${supporting_file_dir}/onub_gp_mapping.txt" | \
 while read protein_id; do
     # Use seqkit to extract the protein sequence for the given protein_id from the FASTA file
     # Match by protein accession (assuming the format of headers is like >XP_063820879.1 \t description)
-    seqkit grep -p "^>${protein_id}" "${supporting_file_dir}/Onub_peptides.fasta" >> "${supporting_file_dir}/Onub_peptides_filt.fasta"
+    seqkit grep -p "${protein_id}" "${supporting_file_dir}/Onub_peptides.fasta" >> "${supporting_file_dir}/Onub_peptides_filt.fasta"
 done
 
