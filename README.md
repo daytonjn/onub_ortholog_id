@@ -5,7 +5,7 @@
 
   1) Download RefSeq peptide files in FASTA from NCBI for Onub and Dmel
      - download_peptides.sh
-  2) Filter peptide files for non-redundant representative peptides for each gene
+  2) Filter peptide files for one representative protein for each gene (i.e., filter isoforms)
      - extract_gp_mappings.sh
      - filter_peptides.sh
   3) Make BLAST+ compatible database from filtered FASTA files
