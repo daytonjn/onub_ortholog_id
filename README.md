@@ -3,6 +3,7 @@
 **Species A:** *O. nubilalis* (Onub) <br>
 **Species B:** *D. melanogaster* (Dmel)
 
+<ins>Workflow:</ins>
   1) Download RefSeq peptide files in FASTA from NCBI for Onub and Dmel
      - download_peptides.sh
   2) Filter peptide files for one representative protein for each gene (i.e., filter isoforms)
@@ -17,7 +18,7 @@
      - find_rbh_onub2dmel.ipynb or find_rbh_onub2dmel_v2.ipynb 
   6) Output table with Onub2Dmel orthologs and corresponding Dmel gene names
 
-Dependencies:
+<ins>Dependencies:</ns>
 - ncbi-datasets-cli
 - seqkit
 - blast==2.12.0
