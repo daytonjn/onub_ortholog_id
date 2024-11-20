@@ -16,5 +16,5 @@ supporting_file_dir="/cluster/tufts/dopmanlab/Jacob/onub_ortholog_id/supporting_
 module load blast-plus/2.11.0
 
 #make databases for BLAST+ (command historically was formatdb)
-makeblastdb -in ${supporting_file_dir}Onub_peptides.fasta -dbtype prot -out ${supporting_file_dir}Onub-db -parse_seqids
-makeblastdb -in ${supporting_file_dir}Dmel_peptides.fasta -dbtype prot -out ${supporting_file_dir}Dmel-db -parse_seqids
+makeblastdb -in ${supporting_file_dir}Onub_peptides_filt.fasta -dbtype prot -out ${supporting_file_dir}Onub-db -parse_seqids
+makeblastdb -in ${supporting_file_dir}Dmel_peptides_filt.fasta -dbtype prot -out ${supporting_file_dir}Dmel-db -parse_seqids
