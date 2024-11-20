@@ -17,3 +17,7 @@ awk 'NR > 1 {print $2}' "${supporting_file_dir}/dmel_gp_mapping.txt" > "${suppor
 # Use seqkit faidx with the --id-file option
 seqkit faidx "${supporting_file_dir}/Onub_peptides.fasta" -l "${supporting_file_dir}/onub_peptide_ids.txt" > "${supporting_file_dir}/Onub_peptides_filt.fasta"
 seqkit faidx "${supporting_file_dir}/Dmel_peptides.fasta" -l "${supporting_file_dir}/dmel_peptide_ids.txt" > "${supporting_file_dir}/Dmel_peptides_filt.fasta"
+
+# Clean up and rm peptide_id files
+rm "${supporting_file_dir}/onub_peptide_ids.txt"
+rm "${supporting_file_dir}/dmel_peptide_ids.txt"
