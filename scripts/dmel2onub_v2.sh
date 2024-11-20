@@ -20,5 +20,5 @@ module load blast-plus/2.11.0
 
 #BLAST+ from Dmel query to Onub reference database
 
-blastp -query ${supporting_file_dir}Dmel_peptides.fasta -db ${supporting_file_dir}Onub-db \
+blastp -query ${supporting_file_dir}Dmel_peptides_filt.fasta -db ${supporting_file_dir}Onub-db \
 -max_target_seqs 5 -max_hsps 1 -out ${output_dir}Dmel2Onub_blastp_v2.txt -evalue 0.001 -outfmt 6
