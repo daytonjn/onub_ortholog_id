@@ -1,3 +1,6 @@
+# Jupyter notebook files
+/scripts/*-checkpoint.ipynb
+
 # Batch output/err files
 /scripts/out_*.txt
 /scripts/err_*.txt
