@@ -28,7 +28,8 @@
 
 **Key Results:**
  - 53% (7282) of *O. nubilalis* RefSeq protein-coding genes (N = 13840) were inferred to be orthologous to *D. melanogaster* by RBH: *onub2dmel_rbh_matches.txt*
- - xx% () of *O. nubilalis* RefSeq protein-coding genes (N = 13840) were inferred to be orthologous to *B. mori* by RBH: *onub2bmor_rbh_matches.txt*
+ - In contrast, xx% () of *O. nubilalis* RefSeq protein-coding genes (N = 13840) were inferred to be orthologous to *B. mori* by RBH: *onub2bmor_rbh_matches.txt*
+ - RefSeq annotated *O. nubilalis* genes with symbol, description, & names (from NCBI Datasets): *onub_genes_all.tsv*
 
 <ins>Dependencies:</ns>
 - ncbi-datasets-cli
