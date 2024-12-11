@@ -4,7 +4,7 @@
 # onub_gp_table.tsv
 
 # Download table with one sequence per gene (representatives) for Drosophila melanogaster GCF_000001215.4
-# bmor_ggp_table.tsv
+# bmor_gp_table.tsv
 # dmel_gp_table.tsv
 
 # Download gene tables from NCBI (https://www.ncbi.nlm.nih.gov/datasets/gene/)

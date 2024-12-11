@@ -17,11 +17,11 @@ datasets download genome accession GCF_000001215.4 \
 datasets download genome accession GCF_963855985.1 \
 	--include protein \
 	--filename "${supporting_file_dir}Onub_peptides.zip"
+
 	
 # Unzip the files to access the FASTA
 unzip ${supporting_file_dir}Dmel_peptides.zip -d ${supporting_file_dir}Dmel
 unzip ${supporting_file_dir}Onub_peptides.zip -d ${supporting_file_dir}Onub
-
 
 #Move peptide file to top of directory
 cp ${supporting_file_dir}Dmel/ncbi_dataset/data/GCF_000001215.4/protein.faa ${supporting_file_dir}Dmel_peptides.fasta
