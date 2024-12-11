@@ -10,7 +10,7 @@
   1) Download RefSeq peptide files in FASTA from NCBI for Onub (GCF_963855985.1) and Dmel (GCF_000001215.4)
      - download_peptides.sh
   2) Filter peptide files for one representative protein for each gene (i.e., filter isoforms)
-     - Download the species RefSeq genome annotation table with one sequence per gene (representatives) to $supporting_file_dir (i.e., onub_gp_table.tsv)
+     - Download the species RefSeq genome annotation table with one sequence per coding gene (representatives) to $supporting_file_dir (i.e., onub_gp_table.tsv)
      - extract_gp_mappings.sh (input: onub_gp_table.tsv; output: onub_gp_mapping.txt)
      - filter_peptides.sh (input: Onub_peptides.fasta & onub_gp_mapping.txt; output: Onub_peptides_filt.fasta)
   4) Make BLAST+ compatible database from filtered FASTA files
@@ -25,6 +25,10 @@
   7) Output table with Onub2Dmel orthologs (XP_## & NP_##) and corresponding Dmel gene names (NCBI Gene ID, Symbol, Description)
      - Download species gene tables from [NCBI datasets](https://www.ncbi.nlm.nih.gov/datasets/gene/) (i.e., onub_genes_all.tsv)
      - join_gp_tables.ipynb (input: dmel_gp_mapping.txt, dmel_genes_all.tsv, OnubDmel_rbh_v2.txt; output: OnubDmel_rbh_v2_final.txt)
+
+**Key Results:**
+ - 53% (7282) of *O. nubilalis* RefSeq protein-coding genes (N = 13840) were inferred to be orthologous to *D. melanogaster* by RBH: *onub2dmel_rbh_matches.txt*
+ - xx% () of *O. nubilalis* RefSeq protein-coding genes (N = 13840) were inferred to be orthologous to *B. mori* by RBH: *onub2bmor_rbh_matches.txt*
 
 <ins>Dependencies:</ns>
 - ncbi-datasets-cli
